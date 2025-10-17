@@ -1,0 +1,44 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 85%;
+    width: 700px;
+    min-height: 520px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+section {
+    padding: 0 10px;
+}
+h1 {
+    margin: 1em 0 .5em;
+    font-size: 140%;
+}
+h2 {
+    margin: .25em 0;
+    font-size: 120%;
+}
+#products {
+    width: 400px;
+    float: left;
+}
+#grdProducts {
+    margin: .5em 0 1em;
+}
+#views {
+    width: 250px;
+    float: left;
+    margin-left: 1.5em;
+}
+#dvwProduct {
+    width: 400px;   
+}
+.spinner {
+    margin-top: 1em;
+}

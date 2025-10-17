@@ -1,0 +1,24 @@
+﻿<%@ Master Language="VB" CodeFile="Site.master.vb" Inherits="Site" ClientIDMode="Static" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Chapter 19: Authentication</title>
+    <link href="/Styles/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <img src="/Images/banner.jpg" alt="Halloween Store" />
+    </header>
+    <section>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder id="formPlaceholder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+    </section>
+</body>
+</html>

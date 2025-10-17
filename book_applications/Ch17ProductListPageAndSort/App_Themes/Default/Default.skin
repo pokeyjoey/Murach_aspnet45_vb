@@ -1,0 +1,7 @@
+﻿<asp:GridView runat="server" CellPadding="4" ForeColor="Black" GridLines="None">
+    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+    <RowStyle BackColor="White" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#E3EAEB" ForeColor="Black" />
+    <PagerStyle BackColor="#1C5E55" ForeColor="White" HorizontalAlign="Center" />
+    <PagerSettings Mode="NextPreviousFirstLast" />
+</asp:GridView>

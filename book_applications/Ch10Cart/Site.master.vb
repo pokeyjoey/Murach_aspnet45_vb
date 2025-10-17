@@ -1,0 +1,33 @@
+﻿
+Partial Class Site
+    Inherits System.Web.UI.MasterPage
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+        'fill 'Days Until' label if it hasn't been overridden
+        If lblDaysUntilHalloween IsNot Nothing Then
+            Dim daysUntil As Integer = Me.DaysUntilHalloween
+            Select Case daysUntil
+                Case 0
+                    lblDaysUntilHalloween.Text = "Happy Halloween!"
+                Case 1
+                    lblDaysUntilHalloween.Text = "Tomorrow is Halloween!"
+                Case Else
+                    lblDaysUntilHalloween.Text = String.Format(
+                        "There are only {0} days left until Halloween!",
+                        daysUntil)
+            End Select
+        End If
+
+    End Sub
+
+    Private Function DaysUntilHalloween() As Integer
+        Dim halloween As New DateTime(DateTime.Today.Year, 10, 31)
+        If DateTime.Today > halloween Then
+            halloween = halloween.AddYears(1)
+        End If
+        Dim ts As TimeSpan = halloween - DateTime.Today
+        Return ts.Days
+    End Function
+End Class
+

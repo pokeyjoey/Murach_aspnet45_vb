@@ -1,0 +1,41 @@
+﻿<%@ Master Language="VB" CodeFile="Site.master.vb" Inherits="Site" ClientIDMode="Static" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Chapter 9: Shopping Cart</title>
+    <link href="Styles/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <img src="Images/banner.jpg" alt="Halloween Store banner" /><br />
+    </header>
+    <aside>
+        <nav>
+            <ul>
+                <li><asp:HyperLink ID="HyperLink1" NavigateUrl="~/Order.aspx" runat="server">Home</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink2" NavigateUrl="~/Cart.aspx" runat="server">Your Cart</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink3" NavigateUrl="" runat="server">Services</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink4" NavigateUrl="" runat="server">About</asp:HyperLink></li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        <form id="form" runat="server">
+            <%--a label within an h1 element that will be exposed--%>
+            <h1><asp:Label ID="lblH1" runat="server"></asp:Label></h1>
+
+            <asp:ContentPlaceHolder id="formPlaceHolder" runat="server">        
+            </asp:ContentPlaceHolder> 
+        </form>
+    </section>   
+    <footer> 
+        <asp:ContentPlaceHolder id="footerPlaceHolder" runat="server">
+            <%--the default content for the footer that can be overridden--%>     
+            <asp:Label ID="lblDaysUntilHalloween" runat="server"></asp:Label>          
+        </asp:ContentPlaceHolder> 
+    </footer>     
+</body>
+</html>

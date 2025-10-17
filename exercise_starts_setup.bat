@@ -1,0 +1,1 @@
+xcopy "exercises\*" "C:\aspnet45_vb\*" /E

@@ -1,0 +1,4 @@
+﻿<asp:DataList runat="server" CellPadding="3" GridLines="Vertical">
+    <AlternatingItemStyle BackColor="#E3EAEB" />
+    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+</asp:DataList>

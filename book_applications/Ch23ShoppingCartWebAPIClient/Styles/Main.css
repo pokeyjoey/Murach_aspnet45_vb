@@ -1,0 +1,62 @@
+﻿body {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 85%;
+    width: 700px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+section {
+    padding-left: 1.5em;
+}
+label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+input {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    font-size: 1.2em;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+    width: 300px;
+}
+input:focus {
+    border: 1px solid #7ac0da;
+}
+input[type="button"],
+button {
+    background-color: #d3dce0;
+    border: 1px solid #787878;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 7px;
+    margin-right: 8px;
+    width: auto;
+}
+/* tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 1em 0;
+    border: 0 none;
+}
+th {
+    font-size: 1.2em;
+    text-align: left;
+    border: none 0px;
+    padding-left: 0;
+    min-width: 7.5em;
+}
+td {
+    padding: 0.25em 2em 0.25em 0em;
+    border: 0 none;
+}
+td a:link, td a:visited, td a:active, td a:hover {
+    color: #333;
+}

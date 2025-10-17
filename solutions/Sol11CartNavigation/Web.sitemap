@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+  <siteMapNode url="~/Home" title="Home"
+      description="Home page.">
+
+    <siteMapNode url="~/Shopping" title="Shopping"
+        description="Shop for your favorite products.">
+      <siteMapNode url="~/Shopping/Order" title="Order Products"
+          description="Order a product.">
+      </siteMapNode>
+      <siteMapNode url="~/Shopping/Cart" title="Shopping Cart"
+          description="View your shopping cart.">
+      </siteMapNode>
+      <siteMapNode url="~/Shopping/Checkout" title="Check Out"
+          description="Finalize your purchase.">
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="~/Categories" title="Categories"
+        description="View our products by category">
+      <siteMapNode url="~/Categories/Costumes" title="Costumes"
+          description="Costumes">
+      </siteMapNode>
+      <siteMapNode url="~/Categories/Masks" title="Masks"
+          description="Masks">
+      </siteMapNode>
+      <siteMapNode url="~/Categories/Props" title="Props"
+          description="Props">
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="~/Support" title="Support"
+        description="Customer service and product support.">
+      <siteMapNode url="~/Support/Service" title="Customer Service"
+          description="Customer service.">
+      </siteMapNode>
+      <siteMapNode url="~/Support/Product" title="Product Support"
+          description="Product support.">
+      </siteMapNode>
+      <siteMapNode url="~/Support/Map" title="Site Map"
+          description="A map of all the pages on this web site.">
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="~/About" title="About Us"
+        description="All about our company.">
+      <siteMapNode url="~/About/Mission" title="Our Mission"
+        description="Our mission statement.">
+      </siteMapNode>
+      <siteMapNode url="~/About/History" title="Our History"
+        description="From the beginning.">
+      </siteMapNode>
+    </siteMapNode>
+
+  </siteMapNode>
+  
+</siteMap>

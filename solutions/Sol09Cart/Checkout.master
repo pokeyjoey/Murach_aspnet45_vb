@@ -1,0 +1,28 @@
+﻿<%@ Master Language="VB" CodeFile="Checkout.master.vb" Inherits="Checkout" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Chapter 9: Shopping Cart</title>
+    <link href="Styles/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <img src="Images/banner.jpg" alt="Halloween Store banner" /><br />
+    </header>
+    <section>
+        <form id="form" runat="server">
+            <asp:ContentPlaceHolder id="formPlaceHolder" runat="server">        
+            </asp:ContentPlaceHolder> 
+        </form>
+    </section>   
+    <footer> 
+        <asp:ContentPlaceHolder id="footerPlaceHolder" runat="server">
+            Checkout Page
+        </asp:ContentPlaceHolder> 
+    </footer>     
+</body>
+</html>

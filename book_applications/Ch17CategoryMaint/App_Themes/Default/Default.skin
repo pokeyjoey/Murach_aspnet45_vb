@@ -1,0 +1,13 @@
+﻿<asp:GridView runat="server" ForeColor="Black">
+    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" HorizontalAlign="Left" />
+    <RowStyle BackColor="White" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#E3EAEB" ForeColor="Black" />
+    <EditRowStyle BackColor="#F46D11" ForeColor="White" />
+</asp:GridView>
+
+<asp:DetailsView runat="server" Height="50px" Width="300px" 
+    CellPadding="4" GridLines="None">
+    <FieldHeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+    <InsertRowStyle BackColor="#E3EAEB" />
+    <CommandRowStyle BackColor="#8FBCAF" />
+</asp:DetailsView>
